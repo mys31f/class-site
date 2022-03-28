@@ -1,7 +1,9 @@
 import React from 'react'
 
 export default function Memories() {
-  return (
-    <div>M</div>
-  )
+    if (typeof window !== 'undefined') {
+        return (
+          <div>M</div>
+        )
+    }
 }

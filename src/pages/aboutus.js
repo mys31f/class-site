@@ -1,7 +1,10 @@
 import React from 'react'
 
 export default function AboutUs() {
-  return (
-    <div>aboutus</div>
-  )
+  if (typeof window !== 'undefined') {
+    return (
+      <div>aboutus</div>
+   )
+  }
+  else return {}
 }

@@ -1,7 +1,9 @@
 import React from 'react'
 
 export default function Teachers() {
-  return (
-    <div>teacherT</div>
-  )
+    if (typeof window !== 'undefined') {
+        return (
+            <div>T</div>
+        )
+    }
 }

@@ -3,9 +3,9 @@ import Layout from '../templates/homepage/index.js'
 
 export default function Index() {
   if (typeof window !== 'undefined') {
-  return (
-    <Layout />
-  )
+    return (
+      <Layout />
+    )
   }
   else return {}
 }

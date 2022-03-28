@@ -1,7 +1,9 @@
 import React from 'react'
 
 export default function Activities() {
-  return (
-    <div>A</div>
-  )
+    if (typeof window !== 'undefined') {
+        return (
+            <div>A</div>
+        )
+    }
 }
