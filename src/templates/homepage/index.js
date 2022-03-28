@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import homepageBG from '../../images/homepagebg.jpg'
 
-export default function index() {
+export default function Layout() {
   return (
     <>
     <div className="navbar">
