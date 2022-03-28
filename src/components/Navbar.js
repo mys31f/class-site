@@ -9,10 +9,10 @@ export default function Navbar() {
     <nav className="navbar" style={$} {...styles.navbar}>
         <ul><Link to="/">Home</Link></ul>
         <ul><Link to="/about">About</Link></ul>
-        <ul><Link to="/students">Students</Link></ul>
-        <ul><Link to="/teachers">Teachers</Link></ul>
-        <ul><Link to="/activities">Activities</Link></ul>
-        <ul><Link to="/memories">Memories</Link></ul>
+        <ul><Link to="/student">Students</Link></ul>
+        <ul><Link to="/teacher">Teachers</Link></ul>
+        <ul><Link to="/activity">Activities</Link></ul>
+        <ul><Link to="/memory">Memories</Link></ul>
     </nav>
     </header>
     </>
