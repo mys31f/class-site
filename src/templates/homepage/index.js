@@ -12,6 +12,9 @@ export default function Layout() {
     <div className="welcome" style={$} {...styles.welcome}>
     >
         <h1>Welcome to our site.</h1>
+        <footer>
+            <p>2022.</p>
+        </footer>
     </div>
     <div className="background"
         style={{

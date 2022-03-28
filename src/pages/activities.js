@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function activities() {
+export default function Activities() {
   return (
-    <div>activities</div>
+    <div>A</div>
   )
 }

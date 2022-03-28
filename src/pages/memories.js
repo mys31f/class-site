@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function memories() {
+export default function Memories() {
   return (
-    <div>memories</div>
+    <div>M</div>
   )
 }

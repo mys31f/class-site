@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function teachers() {
+export default function Teachers() {
   return (
-    <div>teachers</div>
+    <div>teacherT</div>
   )
 }
