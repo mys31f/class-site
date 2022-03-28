@@ -6,7 +6,7 @@ module.exports = {
   plugins: ["gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/icon.png"
+      "icon": "src/images/icon.jpg"
     }
   }]
 };
