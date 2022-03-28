@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar.js'
+import Navbar from '../../components/Navbar.js'
 import homepageBG from '../../images/homepageBG.jpg'
 
 export default function Layout() {
