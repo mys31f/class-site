@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../components/Navbar.js'
+import Navbar from '../../components/Navbar/Navbar.js'
 import homepageBG from '../../images/homepageBG.jpg'
 import * as styles from './Homepage.module.css'
 
