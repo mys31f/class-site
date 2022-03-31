@@ -10,11 +10,11 @@ export default function index() {
     </div>
     <div className='welcome'>
       <h1 style={{
-          font-family: 'Montserrat', sans-serif;
-          font-size: '50px';
-          color: coral;
-          text-align: center;
-          text-shadow: 2px 2px black;
+          font-family: 'Montserrat',
+          font-size: '50px',
+          color: coral,
+          text-align: center,
+          text-shadow: 2px 2px black
         }}>
           Welcome to our site.
       </h1>
