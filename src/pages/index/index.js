@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../../components/Navbar'
 import * as styles from '../styles/index.module.css'
 
 export default function index() {
