@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
-import '../index.module.css'
+import './index.module.css'
 
 export default function index() {
   return (
