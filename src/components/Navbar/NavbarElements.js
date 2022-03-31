@@ -12,6 +12,7 @@ export const Nav = styled.nav `
 export const Link = styled.link`
     color: #000;
     text-decoration: none;
+    text-transform: capitalize;
     display: flex;
     align-items: center;
     padding: 0 1rem;
