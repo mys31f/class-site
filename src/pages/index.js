@@ -25,5 +25,6 @@ export default function index() {
           Welcome to our site.
       </h1>
     </div>
+    </>
   )
 }
