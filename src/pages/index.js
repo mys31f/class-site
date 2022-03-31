@@ -9,13 +9,19 @@ export default function index() {
       <Navbar />
     </div>
     <div className='welcome'>
-      <h1 style={{
-          font-family: 'Montserrat',
-          font-size: '50px',
-          color: coral,
-          text-align: center,
-          text-shadow: 2px 2px black
-        }}>
+      <h1>
+        <style>
+          @font-face {
+          font-family: 'Montserrat';
+          font-size: '50px';
+          font-weight: 500;
+          };
+          @font-face {            
+          color: coral;
+          text-align: center;
+          text-shadow: 2px 2px black;
+          };
+       </style>
           Welcome to our site.
       </h1>
     </div>
