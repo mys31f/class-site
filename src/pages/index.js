@@ -1,6 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
-import styles from  './index.module.css'
+import '@fontsource/montserrat/500.css'
+
+const styles = {
+  font-family: 'Montserrat',
+  font-size: '50px',
+  font-weight: 500,
+  color: coral,
+  text-align: center,
+  text-shadow: 2px 2px black,
+}
 
 export default function index() {
   return (
@@ -8,7 +17,7 @@ export default function index() {
     <div className='navbar'>
       <Navbar />
     </div>
-    <div className='welcome' style={...styles.welcome}>
+    <div className='welcome' style={styles}>
       <h1>
           Welcome to our site.
       </h1>
