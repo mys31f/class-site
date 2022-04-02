@@ -1,6 +1,5 @@
 import React from 'react'
 import { Nav, Link, NavMenu } from './NavbarElements' 
-import { Link } from 'gatsby'
 
 export default function Navbar() {
   return (
