@@ -12,7 +12,7 @@ const styles = {
 }
 
 export default function index() {
-if (window !== undefined) {
+  if (window !== undefined) {
     return (
       <>
       <div className='navbar'>
