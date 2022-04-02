@@ -3,8 +3,8 @@ import Navbar from '../components/Navbar/Navbar'
 import '@fontsource/montserrat/500.css'
 
 const styles = {
-  font-family: 'Montserrat',
-  font-size: '50px',
+  font-family: "Montserrat",
+  font-size: "50px",
   font-weight: 500,
   color: coral,
   text-align: center,
