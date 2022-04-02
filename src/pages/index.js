@@ -24,6 +24,6 @@ export default function index() {
         </h1>
       </div>
       </>
+     )
   }
-  )
 }
