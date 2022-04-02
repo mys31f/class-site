@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import '@fontsource/montserrat/500.css'
+import * as background from '../images/homepageBG.jpg'
 
 const styles = {
   h1: {
@@ -23,6 +24,9 @@ export default function index() {
       <h1>
           Welcome to our site.
       </h1>
+    </div>
+    <div className='background-image'>
+        <img src={background} alt='background' />
     </div>
     </>
    )
