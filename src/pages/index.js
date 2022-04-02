@@ -2,8 +2,6 @@ import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import '@fontsource/montserrat/500.css'
 
-const module = typeof window !== `undefined` ? require("module") : null
-
 const styles = {
   h1: {
     fontFamily: "Montserrat",
