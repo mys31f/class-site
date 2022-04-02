@@ -8,7 +8,7 @@ export default function index() {
     <div className='navbar'>
       <Navbar />
     </div>
-    <div className='welcome' style={$} {...styles.welcome}>
+    <div className='welcome' style={...styles.welcome}>
       <h1>
           Welcome to our site.
       </h1>
