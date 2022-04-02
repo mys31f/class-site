@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import '@fontsource/montserrat/500.css'
 
+const module = typeof window !== `undefined` ? require("module") : null
+
 const styles = {
   h1: {
     fontFamily: "Montserrat",
@@ -14,18 +16,16 @@ const styles = {
 }
 
 export default function index() {
-  if (window !== undefined) {
-    return (
-      <>
-      <div className='navbar'>
-        <Navbar />
-      </div>
-      <div className='welcome' style={styles}>
-        <h1>
-            Welcome to our site.
-        </h1>
-      </div>
-      </>
-     )
-  }
+  return (
+    <>
+    <div className='navbar'>
+      <Navbar />
+    </div>
+    <div className='welcome' style={styles}>
+      <h1>
+          Welcome to our site.
+      </h1>
+    </div>
+    </>
+   )
 }
