@@ -12,16 +12,18 @@ const styles = {
 }
 
 export default function index() {
-  return (
-    <>
-    <div className='navbar'>
-      <Navbar />
-    </div>
-    <div className='welcome' style={styles}>
-      <h1>
-          Welcome to our site.
-      </h1>
-    </div>
-    </>
+  if (window !== undefined) {
+    return (
+      <>
+      <div className='navbar'>
+        <Navbar />
+      </div>
+      <div className='welcome' style={styles}>
+        <h1>
+            Welcome to our site.
+        </h1>
+      </div>
+      </>
+  }
   )
 }
